@@ -1,0 +1,101 @@
+﻿  stdafx.cpp
+  BombermanLevel.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(7): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(49): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(50): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(269): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(270): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(308): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(309): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(373): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(374): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(378): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(379): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(382): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(383): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(443): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(444): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(455): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(456): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(460): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(461): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(464): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(465): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(468): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(469): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(548): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(549): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(585): warning C4100: 'gameContext': unreferenced formal parameter
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(730): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\bombermanlevel.cpp(731): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+  MainGame.cpp
+  Main.cpp
+  WaterMaterial.cpp
+  SkinnedDiffuseMaterial.cpp
+  PostRGBScanline.cpp
+  PostMonoScanline.cpp
+  PostKuwaharaCharcoal.cpp
+  PostKuwahara.cpp
+  PostGrayscale.cpp
+  PostEdges.cpp
+  PostCircles.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\materials\post\postcircles.cpp(10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  PostBlur.cpp
+  PostBarrel.cpp
+  FoamMaterial.cpp
+  DiffuseMaterial.cpp
+  ColorMaterial.cpp
+  PlayingField.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(137): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(183): warning C4456: declaration of 'pModel' hides previous local declaration
+  c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(166): note: see declaration of 'pModel'
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(190): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(10): warning C4100: 'gameContext': unreferenced formal parameter
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(282): warning C4244: '=': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(283): warning C4244: '=': conversion from 'float' to 'int32_t', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(394): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(430): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(394): note: see declaration of 'i'
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(430): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(500): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(514): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(551): warning C4100: 'gameContext': unreferenced formal parameter
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\utility(188): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(385): note: see reference to function template instantiation 'std::pair<float,GameObject *>::pair<int,GameObject*&,void,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=GameObject *&
+          ]
+  c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\playingfield.cpp(419): note: see reference to function template instantiation 'std::pair<float,GameObject *>::pair<int,GameObject*&,void,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=GameObject *&
+          ]
+  Player.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\player.cpp(15): warning C4100: 'gameContext': unreferenced formal parameter
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\player.cpp(77): warning C4189: 'test': local variable is initialized but not referenced
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\player.cpp(176): warning C4100: 'gameContext': unreferenced formal parameter
+  MainMenu.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(40): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(41): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(60): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(61): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(64): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(65): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(68): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordproject\courseobjects\final\mainmenu.cpp(69): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  ControlsScreen.cpp
+  Generating Code...
+  OverlordProject.vcxproj -> C:\Users\Marshmellow\Documents\MEGA\Graphics Programming 2\2DAE1_Vandendriessche_Kiam_GP2Exam1718\Source\OverlordProject\..\Build\Debug\OverlordProject.exe
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\d3dcompiler_46.dll
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\nvToolsExt32_1.dll
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\PhysX3CharacterKinematicDEBUG_x86.dll
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\PhysX3CommonDEBUG_x86.dll
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\PhysX3CommonDEBUG_x86.pdb
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\PhysX3DEBUG_x86.dll
+  C:\cplusplus\GPLibs\AdditionalLibraries\PhysX\bin\bin_debug\PhysX3DEBUG_x86.pdb
+  7 File(s) copied
+  C:\cplusplus\GPLibs\AdditionalLibraries\Fmod\bin\fmod.dll
+  1 File(s) copied

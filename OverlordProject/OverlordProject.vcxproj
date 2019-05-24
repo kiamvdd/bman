@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4BB7590D-3CD1-4AAC-AC8F-DB0534E11B4F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OverlordProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Build\$(Configuration)\</OutDir>
+    <IntDir>_Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Build\$(Configuration)\</OutDir>
+    <IntDir>_Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../OverlordEngine/;../OverlordProject/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <Profile>
+      </Profile>
+      <IgnoreSpecificDefaultLibraries>libcpmtd.lib;libcmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OV_LIBS)\PhysX\bin\bin_debug\*" "$(OutDir)" /y /D
+xcopy "$(OV_LIBS)\Fmod\bin\*" "$(OutDir)" /y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../OverlordEngine/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>libcpmt.lib;libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OV_LIBS)\PhysX\bin\bin_release\*" "$(OutDir)" /y /D
+xcopy "$(OV_LIBS)\Fmod\bin\*" "$(OutDir)" /y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CourseObjects\Final\BombermanLevel.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CourseObjects\Final\ControlsScreen.cpp" />
+    <ClCompile Include="CourseObjects\Final\MainMenu.cpp" />
+    <ClCompile Include="CourseObjects\Final\Player.cpp" />
+    <ClCompile Include="CourseObjects\Final\PlayingField.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\FoamMaterial.cpp" />
+    <ClCompile Include="Materials\Post\PostBarrel.cpp" />
+    <ClCompile Include="Materials\Post\PostBlur.cpp" />
+    <ClCompile Include="Materials\Post\PostCircles.cpp" />
+    <ClCompile Include="Materials\Post\PostEdges.cpp" />
+    <ClCompile Include="Materials\Post\PostGrayscale.cpp" />
+    <ClCompile Include="Materials\Post\PostKuwahara.cpp" />
+    <ClCompile Include="Materials\Post\PostKuwaharaCharcoal.cpp" />
+    <ClCompile Include="Materials\Post\PostMonoScanline.cpp" />
+    <ClCompile Include="Materials\Post\PostRGBScanline.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\WaterMaterial.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OverlordEngine\OverlordEngine.vcxproj">
+      <Project>{634cfe8d-455c-45bf-94f0-bd0aab13e0e6}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CourseObjects\Final\BombermanLevel.h" />
+    <ClInclude Include="CourseObjects\Final\ControlsScreen.h" />
+    <ClInclude Include="CourseObjects\Final\MainMenu.h" />
+    <ClInclude Include="CourseObjects\Final\Player.h" />
+    <ClInclude Include="CourseObjects\Final\PlayingField.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\FoamMaterial.h" />
+    <ClInclude Include="Materials\Post\PostBarrel.h" />
+    <ClInclude Include="Materials\Post\PostBlur.h" />
+    <ClInclude Include="Materials\Post\PostCircles.h" />
+    <ClInclude Include="Materials\Post\PostEdges.h" />
+    <ClInclude Include="Materials\Post\PostGrayscale.h" />
+    <ClInclude Include="Materials\Post\PostKuwahara.h" />
+    <ClInclude Include="Materials\Post\PostKuwaharaCharcoal.h" />
+    <ClInclude Include="Materials\Post\PostMonoScanline.h" />
+    <ClInclude Include="Materials\Post\PostRGBScanline.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Materials\WaterMaterial.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="MainGame.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

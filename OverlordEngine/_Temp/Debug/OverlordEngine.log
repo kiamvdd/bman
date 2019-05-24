@@ -1,0 +1,84 @@
+﻿  stdafx.cpp
+  TransformComponent.cpp
+  SceneManager.cpp
+  RenderTarget.cpp
+  GameObject.cpp
+  GameScene.cpp
+  TorusPrefab.cpp
+  SpherePrefab.cpp
+  SkyBoxPrefab.cpp
+  FreeCamera.cpp
+  FixedCamera.cpp
+  GameSpecs.cpp
+  GameTime.cpp
+  Logger.cpp
+  CubePrefab.cpp
+  PhysxManager.cpp
+  PhysxErrorCallback.cpp
+  PhysxProxy.cpp
+  SkyBoxMaterial.cpp
+  MathHelper.cpp
+  VertexHelper.cpp
+  Generating Code...
+  Compiling...
+  PhysxHelper.cpp
+  BinaryReader.cpp
+  EffectHelper.cpp
+  TextureData.cpp
+  TextRenderer.cpp
+  SpriteRenderer.cpp
+  SpriteFont.cpp
+  PostProcessingMaterial.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\graphics\postprocessingmaterial.cpp(109): warning C4018: '<': signed/unsigned mismatch
+  Particle.cpp
+  ModelAnimator.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\graphics\modelanimator.cpp(174): warning C4018: '>=': signed/unsigned mismatch
+  MeshFilter.cpp
+  Material.cpp
+  DebugRenderer.cpp
+  TextureDataLoader.cpp
+  SpriteFontLoader.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(195): warning C4456: declaration of 'id' hides previous local declaration
+  c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(188): note: see declaration of 'id'
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(200): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(209): warning C4244: '=': conversion from 'UINT' to 'wchar_t', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(213): warning C4244: '=': conversion from 'UINT' to 'wchar_t', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(78): warning C4189: 'size': local variable is initialized but not referenced
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(109): warning C4189: 'size': local variable is initialized but not referenced
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\content\spritefontloader.cpp(143): warning C4189: 'size': local variable is initialized but not referenced
+  PxTriangleMeshLoader.cpp
+  PxConvexMeshLoader.cpp
+  MeshFilterLoader.cpp
+  EffectLoader.cpp
+  ContentManager.cpp
+  Generating Code...
+  Compiling...
+  TerrainComponent.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(146): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(178): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(179): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(210): warning C4389: '==': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(226): warning C4389: '==': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(244): warning C4389: '==': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\terraincomponent.cpp(261): warning C4389: '==': signed/unsigned mismatch
+  SpriteComponent.cpp
+  MeshIndexedDrawComponent.cpp
+  MeshDrawComponent.cpp
+  OverlordGame.cpp
+  BaseComponent.cpp
+  CameraComponent.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\cameracomponent.cpp(98): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\cameracomponent.cpp(99): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+  ColliderComponent.cpp
+  InputManager.cpp
+  RigidBodyComponent.cpp
+  ParticleEmitterComponent.cpp
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\particleemittercomponent.cpp(19): warning C4018: '<': signed/unsigned mismatch
+c:\users\marshmellow\documents\mega\graphics programming 2\2dae1_vandendriessche_kiam_gp2exam1718\source\overlordengine\components\particleemittercomponent.cpp(152): warning C4189: 'particleInterval': local variable is initialized but not referenced
+  ModelComponent.cpp
+  ControllerComponent.cpp
+  SoundManager.cpp
+  MaterialManager.cpp
+  Generating Code...
+  OverlordEngine.vcxproj -> C:\Users\Marshmellow\Documents\MEGA\Graphics Programming 2\2DAE1_Vandendriessche_Kiam_GP2Exam1718\Source\OverlordEngine\_Temp\Debug\OverlordEngine.lib
